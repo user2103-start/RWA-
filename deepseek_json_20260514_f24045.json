@@ -1,0 +1,16 @@
+{
+  "name": "rwa-vercel-proxy",
+  "version": "1.0.0",
+  "description": "RWA Learning Platform API Proxy for Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
